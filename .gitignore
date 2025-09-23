@@ -129,11 +129,10 @@ dmypy.json
 .pyre/
 
 # Test and training data
-training/
-test/
+datasets/
 
 # Trained model and predictions
-PREDICTIONS.csv
+predictions.mat
 
 # VS Code Data
 .vscode/

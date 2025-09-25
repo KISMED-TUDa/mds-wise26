@@ -35,7 +35,7 @@ def score(mat_file_labels:str, mat_file_predictions:str) -> Dict[str, float]:
     metrics = {"accuracy":accuracy_score(y_true=labels, y_pred=preds),
                "precision":precision_score(y_true=labels, y_pred=preds),
                "recall":recall_score(y_true=labels, y_pred=preds),
-               "f1":f1_score(y_true=labels, y_pred=preds)}
+               "f1_score":f1_score(y_true=labels, y_pred=preds)}
     
     return metrics
 

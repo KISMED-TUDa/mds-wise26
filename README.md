@@ -1,4 +1,4 @@
-# Projektseminar "Wettbewerb Medical Data Science" Wintersemester 2025/26
+# Projektseminar "Wettbewerb Medical Data Science" Wintersemester 2026/27
 Dieses Repository enthält den Demo-Code zum Projektseminar "Wettbewerb Medical Data Science" WiSe 2025/26. Das Beispiel definiert gleichzeitig das Interface zu unserem Evaluierungs-System.
 
 ## Erste Schritte
@@ -6,10 +6,10 @@ Dieses Repository enthält den Demo-Code zum Projektseminar "Wettbewerb Medical 
 1. Klone/Kopiere dieses Repository
 2. Richte ein eigenes privates Repository auf github/gitlab ein. Darüber könnt ihr später die Abgaben eurer Modelle machen. 
 3. Füge unseren Account als Collaborator hinzu (Github: Name="wettbewerbKI", Gitlab: auf Anfrage)
-3. Lege ein Python Environment an. Am Besten funktioniert das mit [Anaconda](https://www.anaconda.com/products/distribution), und `conda create -n mds-wise25 python=3.8`
+3. Lege ein Python Environment an. Am Besten funktioniert das mit [Anaconda](https://www.anaconda.com/products/distribution), und `conda create -n mds-wise26 python=3.8`
 4. Installiere alle von uns verwendeten Pakete in diesem Environment, welche in "requirements.txt" gelistet sind mit
 ```
- conda activate mds-wise25
+ conda activate mds-wise26
  pip install -r requirements.txt
 ``` 
 5. Lade die Trainingsdaten herunter (in moodle verlinkt), entpacke sie und lege Sie in einem Dateordner ab
